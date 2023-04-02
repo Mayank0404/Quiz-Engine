@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/mnu_edit_student" android:title="EDIT PROFILE"> </item>
+    <item android:id="@+id/help_studenthome" android:title="HELP"> </item>
+    <item android:id="@+id/about_studenthome" android:title="ABOUT US"> </item>
+    <item android:id="@+id/contact_studenthome" android:title="CONTACT"> </item>
+
+
+</menu>

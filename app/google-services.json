@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "295777908633",
+    "project_id": "quizengine-11a65",
+    "storage_bucket": "quizengine-11a65.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:295777908633:android:cee493b4f3805997cb8508",
+        "android_client_info": {
+          "package_name": "com.example.quizengine"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "295777908633-tnidp95qk0qvhtabcnpkri3eknntf3ia.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBvDlzzQKdpIZehBofBxPKjS9WeaB53-4E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "295777908633-tnidp95qk0qvhtabcnpkri3eknntf3ia.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

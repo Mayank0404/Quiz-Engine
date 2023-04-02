@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">quizengine</string>
+    <string-array name="category">
+        <item name="Admin">ADMIN</item>
+        <item name="Student">STUDENT</item>
+    </string-array>
+    <string-array name="YEAR">
+        <item name="1st year">1ST YEAR</item>
+        <item name="2nd year">2ND YEAR</item>
+        <item name="3rd year">3RD YEAR</item>
+        <item name="4th year">4TH YEAR</item>
+    </string-array>
+    <string-array name="course">
+        <item name="btech">B.TECH</item>
+        <item name="bed">B.E.D</item>
+        <item name="bsc">B.S.C</item>
+        <item name="msc">M.S.C</item>
+        <item name="mtech">M.TECH</item>
+    </string-array>
+</resources>

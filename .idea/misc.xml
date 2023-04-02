@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/quizengine/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1125" />
+        <entry key="..\:/quizengine/app/src/main/res/layout/activity_addquestion.xml" value="0.1" />
+        <entry key="..\:/quizengine/app/src/main/res/layout/activity_addstudent.xml" value="0.2359375" />
+        <entry key="..\:/quizengine/app/src/main/res/layout/activity_admin_home.xml" value="0.2359375" />
+        <entry key="..\:/quizengine/app/src/main/res/layout/activity_dispquestion.xml" value="0.2" />
+        <entry key="..\:/quizengine/app/src/main/res/layout/activity_dispstudent.xml" value="0.24909420289855072" />
+        <entry key="..\:/quizengine/app/src/main/res/layout/activity_editprofile.xml" value="0.24909420289855072" />
+        <entry key="..\:/quizengine/app/src/main/res/layout/activity_main.xml" value="0.176" />
+        <entry key="..\:/quizengine/app/src/main/res/layout/activity_score.xml" value="0.2477355072463768" />
+        <entry key="..\:/quizengine/app/src/main/res/layout/activity_student_home.xml" value="0.24909420289855072" />
+        <entry key="..\:/quizengine/app/src/main/res/layout/activity_updatestudent_viadmin.xml" value="0.24909420289855072" />
+        <entry key="..\:/quizengine/app/src/main/res/layout/activity_view_student.xml" value="0.16799999999999998" />
+        <entry key="..\:/quizengine/app/src/main/res/menu/about_us.xml" value="0.25" />
+        <entry key="..\:/quizengine/app/src/main/res/menu/disp_student.xml" value="0.536" />
+        <entry key="..\:/quizengine/app/src/main/res/menu/student_home.xml" value="0.25" />
+        <entry key="..\:/quizengine/app/src/main/res/menu/studenthome_menu.xml" value="0.25" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".updatestudent_viadmin">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="UPDATE STUDENT DETAILS"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:id="@+id/tv1"/>
+
+
+    <EditText
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="NAME"
+        android:id="@+id/txt_update_student_name"
+        style="@style/edittxtstyle"
+        android:textAlignment="center"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/edittxtstyle"
+        android:inputType="textPassword"
+        android:hint="PASSWORD"
+        android:id="@+id/txt_update_student_password"
+        android:textAlignment="center"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/edittxtstyle"
+        android:hint="E-MAIL"
+        android:textAlignment="center"
+        android:id="@+id/txt_update_student_email"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="MOBILE NO."
+        style="@style/edittxtstyle"
+        android:textAlignment="center"
+        android:id="@+id/txt_update_student_pno"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="ADDRESS"
+        android:textAlignment="center"
+        style="@style/edittxtstyle"
+        android:id="@+id/txt_update_student_address"/>
+    <Spinner
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/sp_year_update"
+        android:entries="@array/YEAR"
+        android:layout_gravity="center"
+        android:textAlignment="center"
+        />
+    <Spinner
+        android:layout_width="150dp"
+
+        android:layout_height="wrap_content"
+        android:id="@+id/sp_course_update"
+        android:entries="@array/course"
+        android:layout_gravity="center"
+
+        android:textAlignment="center"
+        />
+
+
+
+
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_update_edit_admin"
+        android:text="UPDATE ">
+
+    </Button>
+
+</LinearLayout>

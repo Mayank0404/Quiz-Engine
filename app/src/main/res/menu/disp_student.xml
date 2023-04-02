@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/mnu_admin_update_student" android:title="UPDATE STUDENT"> </item>
+    <item android:id="@+id/mnu_admin_delete_student" android:title="DELETE STUDENT"> </item>
+    <item android:id="@+id/mnu_admin_view_student" android:title="VIEW STUDENT"> </item>
+
+
+</menu>

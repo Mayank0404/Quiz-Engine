@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Admin_home"
+    android:background="@drawable/admin">
+<Button
+    android:layout_width="300dp"
+    android:layout_height="wrap_content"
+    android:id="@+id/add_student_admin"
+    android:layout_marginTop="100dp"
+    android:layout_gravity="center"
+    android:text="CLICK HERE TO ADD STUDENT"
+    />
+
+
+
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/add_question_admin"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:text="CLICK HERE TO ADD question"/>
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/disp_student_admin"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:text="CLICK HERE TO dislay student"
+       />
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/disp_question_admin"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:text="CLICK HERE TO dispay question"
+        />
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/update_question_admin"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:text="CLICK HERE TO update question"
+        />
+
+
+
+</LinearLayout>

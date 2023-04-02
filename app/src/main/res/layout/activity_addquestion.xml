@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/question"
+    tools:context=".addquestion">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textMultiLine"
+                android:hint="QUESTION1 "
+                android:textColor="@color/black"
+                android:textAlignment="center"
+                android:id="@+id/question"/>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textMultiLine"
+                android:hint="ANSWER1"
+                android:textAlignment="center"
+                android:id="@+id/ans1"/>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textMultiLine"
+                android:hint="ANSWER 2"
+                android:textAlignment="center"
+                android:id="@+id/ans2"/>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textMultiLine"
+                android:hint="ANSWER 3"
+                android:textAlignment="center"
+                android:id="@+id/ans3"/>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textMultiLine"
+                android:hint="ANSWER 4"
+                android:textAlignment="center"
+                android:id="@+id/ans4"/>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textMultiLine"
+                android:hint="CORRECT ANSWER"
+                android:textAlignment="center"
+                android:id="@+id/correct"/>
+            <Spinner
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/sp_year_category"
+                android:entries="@array/YEAR"
+                android:layout_gravity="center"
+                android:textAlignment="center"
+                />
+            <Spinner
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/sp_course_category"
+                android:entries="@array/course"
+                android:layout_gravity="center"
+                android:textAlignment="center"
+                />
+            <Button
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/save"
+                android:layout_gravity="center"
+
+                android:text="save"/>
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
